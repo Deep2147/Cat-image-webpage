@@ -1,0 +1,85 @@
+body{
+	background-image:url("images/image.jpg");
+	height: 114vh;
+	background-size: cover;
+	background-position: center;
+	color: #ffb3e6;
+	font-size: 45px; 
+}
+	
+h1{
+	color:#ff0000;
+	text-align: center;
+ font: italic 200% fantasy;
+ text-shadow: 0 5px orange, 0 6px #777;
+ margin-right: 650px;
+    margin-left: 650px;
+    border-radius: 30px 30px 30px 30px;
+    width: 40%;
+
+}
+
+h1:hover{
+	background-color: black;
+	color: #00;
+	margin-right:650px; 
+	margin-left: 650px;
+}
+
+h2{
+	color:black ;
+	text-align: center;
+	font:italic bold 60px/50px Georgia, serif ;
+	font-weight: bold;
+	margin-right: 600px;
+    margin-left: 600px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+h2:hover{
+	background-color: white;
+	color: #00;
+	transition: 0.8s ease;
+	}
+
+footer{
+	color:white;
+	padding: 3px 8px;
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	height:2.5rem;
+	text-align: center;
+	font-size: 40px;
+}
+
+table, th, td{
+	color:black;
+	font-family: 'Orienta', sans-serif;
+	font-style: italic;
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	min-width: 200px;
+	border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+thead{
+	background-color:#0000ff;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+}
+
+tbody{
+	border-bottom: 2px solid #0000ff;
+
+}
+
+tbody tr:nth-of-type(even) {
+	background-color: #ebebe0;
+
+}
+
